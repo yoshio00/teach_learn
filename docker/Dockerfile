@@ -68,7 +68,7 @@ ENV LD_LIBRARY_PATH /usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
 
 #Windows 
 #RUN set fileformat=unix
-RUN ls -l /usr/bin/env/
+#RUN ls -l /usr/bin/env/
 
 # IPython
 EXPOSE 8888
